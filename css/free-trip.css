@@ -122,17 +122,13 @@ section {
 	margin: 0;
 	margin-right: 15px;
 }
-.section-4 ul {
+.section-4 > div {
 	display: flex;
 	flex-direction: column;
- 	list-style-type: none;
- 	padding-left: 0;
- 	margin: 0px;
- 	margin-top: -2px;
 }
-.section-4 ul li {
-
-	margin-bottom: 11px;
+.section-4 > div > div {
+	display: flex;
+ 	margin-bottom: 15px;
 }
 
 /*Медиазапросы*/
